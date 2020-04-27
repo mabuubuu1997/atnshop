@@ -1,0 +1,64 @@
+<div class="box-social">
+<ul class="social-icons">
+<li><a class="rss" data-original-title="rss" href="javascript:void(0);"></a></li>
+<li><a class="facebook" data-original-title="facebook" href="javascript:void(0);"></a></li>
+<li><a class="twitter" data-original-title="twitter" href="javascript:void(0);"></a></li>
+<li><a class="googleplus" data-original-title="googleplus" href="javascript:void(0);"></a></li>
+<li><a class="linkedin" data-original-title="linkedin" href="javascript:void(0);"></a></li>
+<li><a class="youtube" data-original-title="youtube" href="javascript:void(0);"></a></li>
+<li><a class="vimeo" data-original-title="vimeo" href="javascript:void(0);"></a></li>
+<li><a class="skype" data-original-title="skype" href="javascript:void(0);"></a></li>
+</ul>
+</div>
+
+
+.footer .social-icons li:first-child{
+	margin-left: 0;
+}
+.footer .social-icons li {
+	float: left;
+	margin: 0 0 0 5px;
+}
+.social-icons li > a {
+	width: 28px;
+	height: 28px;
+	display: block;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out;
+}
+.social-icons li .rss {
+	background: url(../images/social/rss.png) no-repeat;
+}
+.social-icons li .skype {
+	background: url(../images/social/skype.png) no-repeat;
+}
+.social-icons li .vimeo {
+	background: url(../images/social/vimeo.png) no-repeat;
+}
+.social-icons li .youtube {
+	background: url(../images/social/youtube.png) no-repeat;
+}
+.social-icons li .linkedin {
+	background: url(../images/social/linkedin.png) no-repeat;
+}
+.social-icons li .googleplus {
+	background: url(../images/social/googleplus.png) no-repeat;
+}
+.social-icons li .twitter {
+	background: url(../images/social/twitter.png) no-repeat;
+}
+.social-icons li .facebook {
+	background: url(../images/social/facebook.png) no-repeat;
+}
+.footer .social-icons li a {
+	opacity: 0.5;
+}
+.footer .social-icons li:hover a {
+	background-position: 0 -38px;
+	opacity: 1 !important;
+}

@@ -1,0 +1,97 @@
+@charset "utf-8";
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+p {
+	margin: 10px 0;
+}
+#header img,#header p{
+	float: left;
+	font-size: 340%;
+	text-align: center;
+	padding: 20px;
+}
+.swiper-container {
+	width: 100%;
+	height: 100%;
+}
+.swiper-slide {
+	margin-right: 0 !important;
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+	width: 400px !important;
+	height: 400px !important;
+	width: 100% !important;
+	margin: 0 10px;
+
+	/* Center slide text vertically */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+.swiper-slide h3, .swiper-slide p{
+	text-align: center;
+}
+.swiper-slide img{
+	height: 80%;
+	border-radius: 50%;
+}
+.container img{
+	width: 100%;
+	border-radius: 50%;
+	height: 350px;
+	transition: .5s;
+}
+.container img:hover {
+	border-radius: 0;
+	border: 3px solid black;
+}
+.container h3{
+	text-align: center;
+	margin-top: 20px;
+}
+.col-md-4 {
+	padding: 30px 15px !important;
+	height: 450px;
+}
+#logo {
+	text-align: center;
+}
+#logo h1, #logo h3{
+	font-weight: bold;
+}
+
+.swiper-slide .swiper-content {
+	width: 300px;
+	height: 100px;
+	position: absolute;
+	bottom: 0;
+}
+.mySlides {
+	display:none;
+	margin-left: auto;
+	margin-right: auto;
+}
+.demo {
+	cursor:pointer
+}
+	.parallaxx p{
+		margin-bottom: 220px;
+	}
+	.parallax {
+		background: url("gallery/parallaxx.jpg") repeat fixed 80%;
+	}
+	.parallax-inner {
+		padding-top: 200px;
+		padding-bottom: 200px;
+	}

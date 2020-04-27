@@ -1,0 +1,211 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Sony Store </title>
+	<link rel="shortcut icon" type="image/x-icon" href="favicon (1).ico">
+	<link rel="stylesheet" href="Headphone-page.css" type="text/css" />
+	<link rel="stylesheet" href="css/swiper.min.css" type="text/css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="js/swiper.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+	<div class="menu" style="background-color: black">
+		<a id="logo" href="#"><img src="Logo.png" style="width: 170px; float: left;padding-left: 20px"></a>
+		<ul class="menu1">		
+			<li class="Sanpham">
+				<div class="menu-con">
+					<div class="menu-con-text">
+					</div>
+				</li>
+			</ul>
+			<ul class="menu2">
+				<li><a href="" id="dangnhap" data-toggle="modal" data-target="#myModal">Log In</a></li>
+			</ul>
+			<div id="menu3" style="background-color: grey">	
+				<div id="cover-input">		
+					<input type="text" id="input-timkiem" placeholder="Search product" >
+					<img src="search-icon-2.png" style="width: 20%;">
+				</div>
+			</div>
+			<div class="container">
+				<div class="modal fade" id="myModal" role="dialog">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-body">
+								<input type="text" name="user" id="user" placeholder="User" class="form-control"><p id="alert1" style="color: red"></p>
+								<input type="password" name="Password" id="password" placeholder="Password" class="form-control"><p id="alert2" style="color: red"></p>
+							</div>
+							<div class="modal-footer">
+								<button type="button" onclick="dangnhap()" class="btn btn-default">Log In</button>
+								<button type="button" id="close" class="btn btn-default" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="header" style="position: relative;">
+			<img src="gallery/950n1-4cp.jpg" style="width: 100%">
+			<div id="header-content">
+				<p>MDR-XB950N1</p>
+				<p style="font-size: 220%; font-weight: bold;color: white">Superior sound, clear quality</p>
+				<p style="line-height: 1.7">Sit down, relax and prepare to experience a new level of sound excellence. These headphones combine state-of-the-art technology with the best noise-canceling technology to deliver a superior listening experience.</p>
+				<div id="timhieuthem">
+					<img src="icon-window open.png" style="float: left;margin-right: 5px">
+					<a href="../Chuyên trang 950N1/950N1.html" style="margin: 0;color: white">View products</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="container" id="list-sanpham-slide" style="margin-bottom: 50px;">
+			<h1 style="border-bottom: 1px solid #CCC">List of products</h1>
+			<div class="swiper-container" style="margin-top: 50px">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide" id="slide1">
+						<div class="col-md-4">
+							<a href="#">
+								<img src="catolo/z1r.jpg" class="main-picture" />
+							</a>
+							<div class="swiper-content">
+								<a href=""> Sony MDR-Z1R</a>
+								<p>39.990.000 VNĐ</p>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<a href="#">
+								<img src="catolo/1000x.jpg" class="main-picture" />
+							</a>
+							<div class="swiper-content">
+								<a href=""> Sony MDR-1000X</a>
+								<p>9.990.000 VNĐ</p>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<a href="#">
+								<img src="catolo/z7.jpg" class="main-picture" />
+							</a>
+							<div class="swiper-content">
+								<a href=""> Sony MDR-Z7</a>
+								<p>15.990.000 VNĐ</p>
+							</div>
+						</div>
+						
+					</div>
+					<div class="swiper-slide" id="slide1">
+						<div class="col-md-4">
+							<a href="#">
+								<img src="catolo/1abt.jpg" class="main-picture" />
+							</a>
+							<div class="swiper-content">
+								<a href=""> Sony MDR-1ABT</a>
+								<p>8.490.000 VNĐ</p>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<a href="#">
+								<img src="catolo/100abn.jpg" class="main-picture" />
+							</a>
+							<div class="swiper-content">
+								<a href=""> Sony MDR-100ABN</a>
+								<p>7.490.000 VNĐ</p>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<a href="../Chuyên trang 950N1/950N1.html">
+								<img src="catolo/xb950n1.jpg" class="main-picture" />
+							</a>
+							<div class="swiper-content">
+								<a href="../Chuyên trang 950N1/950N1.html"> Sony MDR-XB950N1</a>
+								<p>4.990.000 VNĐ</p>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+
+				<div class="swiper-pagination"></div>
+				<div class="swiper-button-next"></div>
+				<div class="swiper-button-prev"></div>
+			</div>
+		</div>
+			<div id="footer" style="position: relative;">
+				<div id="content-footer">
+					<ul>
+						<li>
+							<div>
+								<img src="icon-location.png" id="icon-location">
+								<p style="color: #CCCCCC">Search For Stores Near You</p>
+							</div>
+							<input type="text" name="vitri" id="timvitri" placeholder="Enter your location">
+						</li>
+					</ul>
+					<ul>
+						<li style="color: gray"><a href="#">Support</a></li>
+						<li><a href="#">Oline Support</a></li>
+						<li><a href="#">Warranty, maintenance</a></li>
+						<li><a href="#">Warranty information</a></li>
+						<li><a href="#">Repair Status</a></li>
+					</ul>
+					<ul>
+						<li style="color: gray"><a href="#">Experience</a></li>
+						<li><a href="#">α Classroom</a></li>
+						<li><a href="#">Online Shopping</a></li>
+						<li><a href="#">α Facebook</a></li>
+						<li><a href="#">Sales Channel By Project</a></li>
+					</ul>
+				</div>
+				<div class="box-social" id="lienhe">
+					<p style="font-size: 150%;color: #CCCCCC;text-align: center;">About us</p>
+					<ul class="social-icons">
+						<li><a class="rss" data-original-title="rss" href="javascript:void(0);"></a></li>
+						<li><a class="facebook" data-original-title="facebook" href="javascript:void(0);"></a></li>
+						<li><a class="twitter" data-original-title="twitter" href="javascript:void(0);"></a></li>
+						<li><a class="googleplus" data-original-title="googleplus" href="javascript:void(0);"></a></li>
+						<li><a class="linkedin" data-original-title="linkedin" href="javascript:void(0);"></a></li>
+						<li><a class="youtube" data-original-title="youtube" href="javascript:void(0);"></a></li>
+						<li><a class="vimeo" data-original-title="vimeo" href="javascript:void(0);"></a></li>
+						<li><a class="skype" data-original-title="skype" href="javascript:void(0);"></a></li>
+					</ul>
+				</div>
+				<div class="container" style="border-top: 2px solid #CCCCCC; position: relative;position: absolute;    top: 85%;    left: 7%;">
+					<p style="color: #CCCCCC;margin-top: 5px !important;">2019 © COPYRIGHT UNDER OWNERS OF SONY ELECTRONICS VIETNAM.
+</p>
+				</div>
+			</div>
+	</body>
+	<script>
+		var swiper = new Swiper('.swiper-container', {
+			pagination: '.swiper-pagination',
+			slidesPerView: 1,
+			paginationClickable: true,
+			spaceBetween: 0,
+			pagination: '.swiper-pagination',
+			nextButton: '.swiper-button-next',
+			prevButton: '.swiper-button-prev'
+		});
+
+		function dangnhap(){
+			var user = document.getElementById("user").value;
+			var pass = document.getElementById("password").value;
+			if (user == ""){
+				$("#alert1").html("Bạn cần phải nhập tên User!")
+			} else $("#alert1").html("");
+			if (pass == ""){
+				$("#alert2").html("Password không đúng!")
+			} else $("#alert2").html("")
+			if (user != "" && pass != ""){
+				$("#dangnhap").html(user);
+				$("#dangnhap").prepend("Hi! ");
+				$("#close").click();
+				$(".modal-body input").val("");
+			}
+		}
+
+	</script>

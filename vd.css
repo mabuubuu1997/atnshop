@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+/*reset CSS*/
+*{ margin:0;
+    boder:0;
+}
+.menu
+{
+    width:70%; 
+    height:30px; 
+    line-height:30px;
+    margin:0 auto;
+}
+.menu li
+{
+    position:relative;
+    display:inline-block;
+    width:100%;
+}
+.menu li ul
+{
+    position:absolute; 
+    display:none;
+}
+.menu li:hover > ul
+{
+    display:block;
+}
+.menu a
+{
+    display:block; 
+    color:#fff;
+    background:#606c88;
+}
+.menu ul ul,
+.menu li:hover > a,
+.menu a:hover
+{
+    opacity:.8;
+}
+/*Level 1*/
+.menu > ul > li
+{
+    float:left;
+    width:24%;
+}
+.menu > ul > li > a
+{
+    width:94%;
+    padding-left:3%; 
+    padding-right:3%; 
+    text-transform:uppercase; 
+    font-weight:bold;
+}
+/*Level 2*/
+.menu > ul > li > ul
+{
+    position:absolute; 
+    top:100%; 
+    left:0; 
+    width:100%; 
+}
+.menu > ul > li > ul > li
+{
+    width:100%;
+}
+.menu > ul > li > ul > li > a
+{
+    width:94%;
+    padding-left:3%;
+    padding-right:3%;
+}
+/* Level +++ */
+.menu ul ul ul
+{
+    width:100%;
+    left:100%;
+    top:0;
+    background:#a1b1d4;
+}
+.menu ul ul ul li
+{
+    width:100%;
+}
+.menu ul ul ul li a
+{
+    width:94%;
+    padding-left:3%;
+    padding-right:3%;
+}

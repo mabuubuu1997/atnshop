@@ -1,0 +1,237 @@
+@charset "utf-8";
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+p {
+	margin-top: 30px !important;
+}
+.header {
+	position: relative;
+}
+#title {
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+#title img{
+	max-width: 90%;
+}
+#logo-sony{
+	float: left;
+	margin: 20px;
+	width: 150px;
+}
+#logo-hires{
+	float: right;
+	margin: 20px;
+	width: 70px;
+}
+#logo-ultra{
+	margin-right: auto;
+	margin-left: auto;
+	width: 60%;
+	margin-top: 50px;
+	max-width: 80%;
+}
+#slogan{
+	font-size: 290%;
+	color: white;
+	text-align: center;
+	margin: 10px;
+}
+#countdown{
+	font-size: 301%;
+    color: black;
+    position: absolute;
+    top: 31%;
+    left: 29%;
+    width: 400px;
+    text-align: center;
+    background-color: rgba(243,244,246,0.5);
+}
+#indicate-header p{
+	color: white;
+	position: absolute;
+	left: 42.5%;
+	top: 87%;
+	font-size: 105%;
+}
+#indicate-header img {
+	position: absolute;
+	left: 50%;
+	top: 95%;
+}
+#content-body {
+	position: absolute;
+	top: 14%;
+	left: 14%;
+	color: #CCCCCC;
+	font-size: 120%;
+}
+#slogan-body {
+	font-size: 200%;
+	position: absolute;
+	top: 6%;
+	left: 23%;
+	text-align: center;
+	color: #CCCCCC;
+}
+.datmua {
+	padding: 20px;
+	top: 118%;
+	position: absolute;
+	border: 2px solid blueviolet;
+	color: #CCCCCC;
+	font-size: 150%;
+	width: 335px;
+	text-align: center;
+	background-color: rgba(243,244,246,0.5);
+}
+.datmua a{
+	text-decoration: none;
+	color: black;
+}
+
+#danhsach {
+	margin-right: auto;
+	margin-left: auto;
+	height: 500px;
+}
+#table-danhsach {
+	width: 580px;
+	border: 2px solid #CCCCCC;
+	font-size: 130%;	
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+#table-danhsach tr, #table-danhsach td{
+	border: 2px solid #CCCCCC;
+	padding: 5px;
+}
+#table-danhsach tr:nth-child(odd){
+	background-color: #f2f2f2;
+}
+#table-danhsach tr td:nth-child(2) {
+	text-align: left;
+}
+#table-danhsach #tr1 {
+	background-color: #3A85DC;
+	color: white;
+}
+#table-danhsach #tr1 td:nth-child(2){
+	text-align: center;
+}
+#dangky {
+	position: relative;
+	padding-left: 30px;
+}
+
+table button {
+	width: 300px;
+	height: 45px;
+	margin: 10px;
+	background-color: #3A85DC;
+	border-radius: 7px;
+	color: white;
+	font-size: 18px;
+}
+#form-dangky table {
+	margin-right: auto;
+	margin-left: auto;
+}
+input#hoten, input#email, input#sdt {
+	height: 45px;
+	width: 300px;
+	font-size: 135%;
+	border-radius: 7px;
+	margin: 10px;
+}
+
+.social-icons{
+	list-style-type: none;
+}
+.social-icons li:first-child{
+	margin-left: 0;
+}
+.social-icons li {
+	float: left;
+	margin: 0 0 0 5px;
+}
+.social-icons li > a {
+	width: 28px;
+	height: 28px;
+	display: block;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out;
+}
+.social-icons li .rss {
+	background: url(social/rss.png) no-repeat;
+}
+.social-icons li .skype {
+	background: url(social/skype.png) no-repeat;
+}
+.social-icons li .vimeo {
+	background: url(social/vimeo.png) no-repeat;
+}
+.social-icons li .youtube {
+	background: url(social/youtube.png) no-repeat;
+}
+.social-icons li .linkedin {
+	background: url(social/linkedin.png) no-repeat;
+}
+.social-icons li .googleplus {
+	background: url(social/googleplus.png) no-repeat;
+}
+.social-icons li .twitter {
+	background: url(social/twitter.png) no-repeat;
+}
+.social-icons li .facebook {
+	background: url(social/facebook.png) no-repeat;
+}
+.social-icons li a {
+	opacity: 0.5;
+}
+.social-icons li:hover a {
+	background-position: 0 -38px;
+	opacity: 1 !important;
+}
+#footer{
+	background-color: #3C3C42;
+	height: 300px;
+}
+#content-footer ul li{
+	list-style-type: none;
+	padding: 8px 0;
+}
+#content-footer a{
+	color: #CCCCCC;
+}
+#content-footer ul{
+	float: left;
+	padding-right: 10px;
+}
+#content-footer {
+	position: absolute;
+	top: 10%;
+	left: 5%;
+}
+#lienhe{
+	position: absolute;
+	top: 35%;
+	left: 55%;
+}
+#icon-location {
+	width: 50px;
+	position: absolute;
+	left: -9px;
+	top: 22px;
+}
+#content-footer p {
+	margin-top: 0 !important;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Sony Store </title>
+	<link rel="shortcut icon" type="image/x-icon" href="favicon (1).ico">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" type="text/css" />
+	<link rel="stylesheet" href="calendar.css" type="text/css" />
+	<link rel="stylesheet" href="fullcalendar.min.css" type="text/css" />
+	<link rel="stylesheet" href="fullcalendar.print.min.css" type="text/css" />
+	<link rel="stylesheet" href="css/swiper.min.css" type="text/css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="js/swiper.min.js"></script>
+	<script src="fullcalendar.min.js"></script>
+	<script src="jquery.min.js"></script>
+	<script src="moment.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+	<div id='calendar'></div>
+
+</body>
+<script>
+
+		$(document).ready(function() {
+
+			$('#calendar').fullCalendar({
+				header: {
+					left: 'prev,next today',
+					center: 'title',
+					right: 'month,agendaWeek,agendaDay'
+				},
+				defaultDate: '2017-09-12',
+				businessHours: true,
+			navLinks: true, // can click day/week names to navigate views
+			selectable: true,
+			selectHelper: true,
+			navLinks: true, // can click day/week names to navigate views
+			eventLimit: true, // allow "more" link when too many events
+			events: [
+			{
+				title: 'Quốc khánh 2-9',
+				url: 'duyet-binh-quoc-khanh-2-9.html',
+				start: '2017-09-02',
+				color: 'red'
+			},
+			{
+				title: 'Lễ khai giảng',
+				start: '2017-09-05'
+			},
+			{
+				title: 'Tết thiếu nhi Hà Nội',
+				url: 'duyet-binh-quoc-khanh-2-9.html',
+				start: '2017-08-15'
+			},
+			{
+				title: 'Heineken Countdown Party',
+				url: 'duyet-binh-quoc-khanh-2-9.html',
+				start: '2017-12-31T20:00:00'
+			},
+			{
+				title: 'Gala gặp nhau cuối năm',
+				url: 'duyet-binh-quoc-khanh-2-9.html',
+				start: '2017-12-23T19:00:00',
+				end: '2017-12-23T21:00:00'
+			}
+			]
+		});
+
+		});
+
+	</script>
